@@ -1,0 +1,62 @@
+@import "./node_modules/prismjs/themes/prism.css";
+@import "./node_modules/prismjs/themes/prism-okaidia.css";
+
+.editor {
+  position: relative;
+  overflow: scroll;
+}
+
+.editor-inner {
+  overflow: visible;
+}
+
+.editor-inner > * {
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.editor > pre {
+  pointer-events: none;
+  word-break: break-all;
+}
+.editor > pre > * {
+  word-break: break-all;
+}
+
+.editor-inner > textarea {
+  position: absolute;
+  border: none;
+  color: transparent;
+  background-color: transparent;
+  caret-color: white;
+  display: block;
+
+  padding: 1em;
+  margin: .5em 0;
+  overflow: hidden;
+  resize: none;
+  border-radius: .3em;
+  background: 0 0;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  text-align: left;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+}
+
+button {
+  background-color: #272822;
+  color: #f8f8f2;
+  border-radius: 2px;
+  font-size: 16px;
+}
+
+.token.operator {
+  background-color: inherit;
+}
