@@ -1,3 +1,3 @@
 # code-editor
 
-[demo]()
+[demo](https://naoki-tomita.github.io/code-editor/index.html)
